@@ -703,7 +703,7 @@ Content-Length: 115
 <Search>SearchTerm>&xxe;</SearchTerm></Search>
 ```
 If no known field can be found, specify an external entity of `http://192.168.1.1.:25` and monitor the page for response time. If the page takes significantly longer to return or times out, it may be vulnerable.
-# Test For Logic Flaws
+# 9 Test For Logic Flaws
 | 9.1 IDENTIFY KEY ATTACK SURFACE 	|
 |---------------------------------	|
 
@@ -753,7 +753,7 @@ If no known field can be found, specify an external entity of `http://192.168.1.
 ## **Test Segregation Between ASP-Hosted Applications**
 1. If the app belongs to an ASP-hosted service composed of a mix of shared and customized component such as logging mechanisms, administrative functions, and database code components. Attempt to leverage these to compromise the shared portion of the app and thereby attack other individual applications.
 2. If a common database is used within any kind of shared environment, perform a comprehensive audit of the database configuration, patch level, table structure, and permissions using a database scanning tool such as NGSSquirrel. Any defects within the database security model may provide a way to escalate an attack from within one application to another.
-# Test for Application Server Vulnerabilities
+# 11 Test for Application Server Vulnerabilities
 | 11 TEST FOR APPLICATION SERVER VULNERABILITIES 	|
 |------------------------------------------------	|
 | 11.1 Test for Default Credentials              	|
